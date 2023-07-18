@@ -1,0 +1,24 @@
+{
+  "name": "ativ-diagrama_de_classes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev1": "ts-node-dev --respawn --transpile-only ./src/exerc1.ts",
+    "dev2": "ts-node-dev --respawn --transpile-only ./src/exerc2.ts",
+    "dev4": "ts-node-dev --respawn --transpile-only ./src/exerc4.ts",
+    "dev5": "ts-node-dev --respawn --transpile-only ./src/exerc5.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2"
+  }
+}
